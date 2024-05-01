@@ -1,6 +1,6 @@
 namespace Domain.Entities.Endpoint;
 
-public class SecurityTokens
+public class SecurityTokens:BaseEntity
 {
     
 }

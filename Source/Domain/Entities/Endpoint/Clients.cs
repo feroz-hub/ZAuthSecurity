@@ -1,6 +1,6 @@
 namespace Domain.Entities.Endpoint;
 
-public class Clients
+public class Clients:BaseEntity
 {
     
 }

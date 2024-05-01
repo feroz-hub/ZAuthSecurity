@@ -1,6 +1,6 @@
 namespace Domain.Entities.Endpoint;
 
-public class ClientRedirectUris
+public class ClientRedirectUris:BaseEntity
 {
     
 }
