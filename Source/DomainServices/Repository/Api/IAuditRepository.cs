@@ -1,6 +1,6 @@
 namespace DomainServices.Repository.Api;
 
-public class IAuditRepository
+public interface IAuditRepository
 {
     
 }
