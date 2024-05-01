@@ -4,7 +4,7 @@ public class ValidationResult
 {
     private IEnumerable<ValidationError> Errors { get; set; }
     public string Message { get; set; }
-    public bool IsValid => !Errors.Any();
+    private bool IsValid => !Errors.Any();
 
     public ValidationResult()
     {
