@@ -1,9 +1,8 @@
 using Domain.Enums;
 
 namespace Domain.Entities.Endpoint;
-
 /// <summary>
-/// DB Entity representing Clients table.
+/// Represents a client entity.
 /// </summary>
 public class Clients : BaseEntity
 {
