@@ -123,7 +123,6 @@ public static class ApiPermissionConstants
     public const string AdminManage = BaseName + "adminuser.manage";
     
     // Permissions for Audit operations
-    
     ///<summary>
     /// Permission to read audit trails.
     ///</summary>
@@ -136,7 +135,6 @@ public static class ApiPermissionConstants
 
     
     // Permissions for Client operations
-   
     ///<summary>
     /// Permission to read clients.
     ///</summary>

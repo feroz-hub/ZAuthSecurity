@@ -1,5 +1,4 @@
 namespace Domain.Constants;
-
 public class Constants
 {
     public const string DefaultProvider = "Default";

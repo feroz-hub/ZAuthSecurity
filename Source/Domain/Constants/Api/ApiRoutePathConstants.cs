@@ -1,7 +1,4 @@
-using Domain.Models.Api;
-
 namespace Domain.Constants.Api;
-
 public static class ApiRoutePathConstants
 {
     ///<summary>

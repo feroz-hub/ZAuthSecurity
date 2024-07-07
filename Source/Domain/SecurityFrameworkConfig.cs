@@ -1,6 +1,3 @@
-using Domain.Configurations.Api;
-using Domain.Configurations.Endpoint;
-
 namespace Domain;
 /// <summary>
 /// Represents the configuration settings for the security framework, including system settings, notification template settings, and token settings.

@@ -1,5 +1,4 @@
 using System.Security.Claims;
-using Domain.Constants.Endpoint;
 using Domain.Models.Endpoint.Request;
 using Domain.Models.Endpoint.Response;
 

@@ -1,5 +1,3 @@
-using Domain.Enums;
-
 namespace Domain.Entities.Endpoint;
 /// <summary>
 /// Represents a client entity.

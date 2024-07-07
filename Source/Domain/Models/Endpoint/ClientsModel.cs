@@ -1,6 +1,3 @@
-using Domain.Constants.Endpoint;
-using Domain.Enums;
-
 namespace Domain.Models.Endpoint;
 
 /// <summary>

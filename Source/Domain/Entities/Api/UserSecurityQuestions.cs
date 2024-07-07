@@ -1,5 +1,4 @@
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// DB Entity representing UserSecurityQuestions table.
 /// </summary>

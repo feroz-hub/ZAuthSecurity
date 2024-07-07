@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Identity;
-
 namespace Domain.Entities.Api;
 
 /// <summary>

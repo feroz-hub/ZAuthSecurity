@@ -1,5 +1,4 @@
 namespace Domain.Constants.Endpoint;
-
 public class AuthenticationConstants
 {
     private const string SecurityFrameworkName = "ZAuthSecurityFramework";

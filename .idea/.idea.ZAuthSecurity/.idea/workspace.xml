@@ -16,9 +16,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="853bc26e-a9ba-462b-acc5-0f9355812457" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/Domain/GlobalUsings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/BaseTrailModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/BaseTrailModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Configurations/Api/SystemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Configurations/Api/SystemConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/AuthenticationConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/AuthenticationConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/InputLengthRestrictionsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/InputLengthRestrictionsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/TokenConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/TokenConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/UserInteractionConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Configurations/Endpoint/UserInteractionConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiPermissionConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiPermissionConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiRouteParameterConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiRouteParameterConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiRoutePathConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Api/ApiRoutePathConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Constants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Endpoint/AuthenticationConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Endpoint/AuthenticationConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/Endpoint/OpenIdConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/Endpoint/OpenIdConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Constants/ProxyConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Constants/ProxyConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/ApiResourceClaims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/ApiResourceClaims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/ApiScopes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/ApiScopes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/AuditTrail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/AuditTrail.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/Notification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/Notification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/RoleClaims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/RoleClaims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/Roles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/Roles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserClaims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserClaims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserLogins.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserLogins.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserRoles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserRoles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserSecurityQuestions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserSecurityQuestions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserTokens.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/UserTokens.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Api/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Api/Users.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Entities/Endpoint/Clients.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Entities/Endpoint/Clients.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditSearchRequestModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditSearchRequestModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditTrailModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Api/AuditTrailModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Api/Response/SignInResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Api/Response/SignInResponseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Api/UserModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Api/UserModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/AsymmetricKeyInfoModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/AsymmetricKeyInfoModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/ClientsModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/ClientsModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/ParsedSecretModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/ParsedSecretModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/TokenDetailsModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/TokenDetailsModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/Validation/RopValidationModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/Validation/RopValidationModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/Validation/ValidatedBaseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/Models/Endpoint/Validation/ValidatedBaseModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Domain/SecurityFrameworkConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Domain/SecurityFrameworkConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/BaseDispose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/BaseDispose.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/BaseRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiResourceClaimsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiResourceClaimsMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiResourcesMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiResourcesMap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiScopeClaimsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiScopeClaimsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiScopesMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/ApiScopesMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/AuditTrailMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/AuditTrailMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/IdentityClaimsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/IdentityClaimsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/IdentityResourcesMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/IdentityResourcesMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/NotificationMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/NotificationMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/PasswordHistoryMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/PasswordHistoryMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/RoleClaimsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/RoleClaimsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/RolesMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/RolesMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/SecurityQuestionsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/SecurityQuestionsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserClaimsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserClaimsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserLoginsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserLoginsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserRolesMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserRolesMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserSecurityQuestionsMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserSecurityQuestionsMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserTokensMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UserTokensMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UsersMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Mapper/Api/UsersMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/ApiResourceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/ApiResourceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/AuditRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/AuditRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/IdentityResourceRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/IdentityResourceRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/RoleClaimsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/RoleClaimsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/RoleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/RoleRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserClaimRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserClaimRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserRoleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserRoleRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserTokenRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/Api/UserTokenRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/EndPoint/SecurityTokenRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Repository/EndPoint/SecurityTokenRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/ResourceUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/ResourceUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/RoleManagementUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/RoleManagementUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/UserManagementUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/UnitOfWork/Api/UserManagementUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Wrappers/RoleStoreWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Wrappers/RoleStoreWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Infrastructure.Data/Wrappers/UserStoreWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Infrastructure.Data/Wrappers/UserStoreWrapper.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +108,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2fr3guFyLxECWvm0OdtSVGI7Z8q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +120,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -157,6 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714545485221</updated>
       <workItem from="1714545489604" duration="196000" />
+      <workItem from="1720347262920" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="Intial">
       <option name="closed" value="true" />

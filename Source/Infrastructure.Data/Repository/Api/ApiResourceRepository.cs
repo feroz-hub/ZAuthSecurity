@@ -1,8 +1,3 @@
-using Domain.Entities.Api;
-using Domain.Models.Api;
-using DomainServices;
-using DomainServices.Repository.Api;
-
 namespace Infrastructure.Data.Repository.Api;
 
 internal class ApiResourceRepository(IApplicationDbContext context) :BaseRepository<ApiResources>(context),IApiResourceRepository

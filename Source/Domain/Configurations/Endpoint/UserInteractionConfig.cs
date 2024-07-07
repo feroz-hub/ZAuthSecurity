@@ -1,5 +1,3 @@
-using Domain.Constants.Endpoint;
-
 namespace Domain.Configurations.Endpoint;
 
 /// <summary>

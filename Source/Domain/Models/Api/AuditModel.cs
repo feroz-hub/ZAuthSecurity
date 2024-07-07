@@ -1,5 +1,4 @@
 using Domain.Entities.Api;
-using Domain.Enums;
 using Newtonsoft.Json;
 
 namespace Domain.Models.Api;

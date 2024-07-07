@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Identity;
-
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// DB Entity representing UserTokens table.
 /// </summary>

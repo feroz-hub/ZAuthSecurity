@@ -1,5 +1,4 @@
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// DB Entity representing ApiScopes table.
 /// </summary>

@@ -1,6 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
-
 namespace Domain.Entities.Api;
 /// <summary>
 /// DB Entity representing UserClaims table.

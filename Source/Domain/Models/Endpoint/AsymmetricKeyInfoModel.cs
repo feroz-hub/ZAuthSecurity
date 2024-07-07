@@ -1,5 +1,4 @@
 using System.Security.Cryptography.X509Certificates;
-using Domain.Enums;
 
 namespace Domain.Models.Endpoint;
 

@@ -1,5 +1,4 @@
 namespace Domain.Constants.Api;
-
 public static class ApiRouteParameterConstants
 {
     ///<summary>

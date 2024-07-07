@@ -1,8 +1,4 @@
-using Domain.Enums;
-using Microsoft.AspNetCore.Identity;
-
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// DB Entity representing Users table.
 /// </summary>

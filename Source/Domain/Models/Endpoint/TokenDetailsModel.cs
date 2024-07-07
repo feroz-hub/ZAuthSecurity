@@ -1,4 +1,3 @@
-using Domain.Models.Api;
 using Domain.Models.Api.Response;
 
 namespace Domain.Models.Endpoint;

@@ -1,5 +1,4 @@
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// Represents the claims associated with an API resource.
 /// </summary>

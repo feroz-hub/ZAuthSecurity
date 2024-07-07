@@ -1,5 +1,4 @@
 namespace Domain.Constants.Endpoint;
-
 public static class OpenIdConstants
 {
     public static class ClaimTypes

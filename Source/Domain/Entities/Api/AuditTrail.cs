@@ -1,7 +1,4 @@
-using Domain.Enums;
-
 namespace Domain.Entities.Api;
-
 /// <summary>
 /// DB Entity representing AuditTrail table.
 /// </summary>

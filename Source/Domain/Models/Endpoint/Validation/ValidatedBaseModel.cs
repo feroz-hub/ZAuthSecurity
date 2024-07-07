@@ -1,5 +1,4 @@
 using System.Security.Claims;
-using Domain.Enums;
 using Domain.Models.Endpoint.Response;
 
 namespace Domain.Models.Endpoint.Validation;
